@@ -18,6 +18,7 @@ Let's take a look at the English translation of machine translation! Haha
 
 
 一下是编译过程：
+
 -----------------------------------------------------------------------------------------
 
 /Applications/Arduino1.8.5.app/Contents/Java/arduino-builder -dump-prefs -logger=machine -hardware /Applications/Arduino1.8.5.app/Contents/Java/hardware -hardware /Users/zy/Library/Arduino15/packages -tools /Applications/Arduino1.8.5.app/Contents/Java/tools-builder -tools /Applications/Arduino1.8.5.app/Contents/Java/hardware/tools/avr -tools /Users/zy/Library/Arduino15/packages -built-in-libraries /Applications/Arduino1.8.5.app/Contents/Java/libraries -libraries /Users/zy/Documents/Arduino/libraries -fqbn=arduino:avr:nano:cpu=atmega328 -ide-version=10805 -build-path /var/folders/tl/xhd8rh8j3xq0nj2g5p1kv7t40000gn/T/arduino_build_718501 -warnings=default -build-cache /var/folders/tl/xhd8rh8j3xq0nj2g5p1kv7t40000gn/T/arduino_cache_836188 -prefs=build.warn_data_percentage=75 -prefs=runtime.tools.arduinoOTA.path=/Users/zy/Library/Arduino15/packages/arduino/tools/arduinoOTA/1.1.1 -prefs=runtime.tools.avrdude.path=/Users/zy/Library/Arduino15/packages/arduino/tools/avrdude/6.3.0-arduino9 -prefs=runtime.tools.avr-gcc.path=/Users/zy/Library/Arduino15/packages/arduino/tools/avr-gcc/4.9.2-atmel3.5.4-arduino2 -verbose /Users/zy/Documents/GitHub/me-robot/grbl/grblUpload/grblUpload.ino
@@ -177,6 +178,7 @@ Linking everything together...
 项目使用了 30688 字节，占用了 (99%) 程序存储空间。最大为 30720 字节。
 全局变量使用了1502字节，(73%)的动态内存，余留546字节局部变量。最大为2048字节。
 =======================================================================================
+
 TEST:
 
 Grbl 0.9 UP_5_Axis_30K[X,Y,Z,A/B]QQ:47193051/324584909 ['$' for help]
